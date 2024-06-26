@@ -1,0 +1,42 @@
+.cursor-pointer{
+    cursor: pointer;
+}
+.form-middle-title{
+    font-size: 1.2rem;
+    margin: 1.5em .5em 1em;
+    border-bottom: 1px solid #ced4da;
+}
+a.page-link.active {
+    background: #e9e9ff;
+}
+.trt-card{
+    background: white;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
+}
+.page-item{
+    cursor: pointer;
+}
+.page-item .active{
+    background-color: #dddddd;
+    color: black;
+}
+.pagination-item-etc{
+    position: relative;
+    display: block;
+    margin-left: -1px;
+    color: #25249f;
+    background-color: #f1f8ff;
+    border: 1px solid #dee2e6;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+}
+.sidebar-title{
+    font-size: 1.1em;
+    margin: .8em .8em 0;
+    color: #b8bec6;
+    text-transform: uppercase;
+}

@@ -1,0 +1,9 @@
+.list-item-id {
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 1.5em;
+}
+.list-item-actions{
+    min-width: 70px;
+    margin-left: 2em;
+}

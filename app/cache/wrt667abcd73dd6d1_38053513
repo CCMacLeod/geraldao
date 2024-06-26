@@ -1,0 +1,146 @@
+<?php
+/* Smarty version 5.3.0, created on 2024-06-25 14:49:27
+  from 'file:app/templates/layout.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCached()->isFresh($_smarty_tpl, array (
+  'version' => '5.3.0',
+  'unifunc' => 'content_667abcd73b7389_57729575',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'b965fe1f219c2d1a0af0c30b7218b2412a2d4d52' => 
+    array (
+      0 => 'app/templates/layout.tpl',
+      1 => 1718973258,
+      2 => 'file',
+    ),
+    'ded086a21d55a23a7b6bd10e13c3d9df7375d13d' => 
+    array (
+      0 => 'app/templates/nav.tpl',
+      1 => 1718827769,
+      2 => 'file',
+    ),
+    '57513fcfa10985b6d5129b32e78868b2b7680e09' => 
+    array (
+      0 => 'app/templates/sidenav.tpl',
+      1 => 1719261815,
+      2 => 'file',
+    ),
+    'ab57239984a5434dd4c9d3ab359c4b2a1da0bb82' => 
+    array (
+      0 => 'app/templates/_mensagens.tpl',
+      1 => 1691499095,
+      2 => 'file',
+    ),
+  ),
+  'cache_lifetime' => 3600,
+))) {
+function content_667abcd73b7389_57729575 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = 'C:\\xampp\\htdocs\\projetos\\geraldao\\app\\templates';
+?><!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Geraldão</title>
+
+        <!-- Google Font: Source Sans Pro -->
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+        <link rel="stylesheet" href="http://localhost/projetos/geraldao/app/assets/plugins/fontawesome-free/css/all.min.css">
+        <!-- Theme style -->
+        <link rel="stylesheet" href="http://localhost/projetos/geraldao/app/assets/css/adminlte.min.css">
+    </head>
+
+        <body class="hold-transition sidebar-mini layout-fixed layout-footer-fixed layout-navbar-fixed">
+        <div class="wrapper">
+            
+<!-- Navbar -->
+<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button" aria-label="expande"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a class="nav-link text-primary" href="http://localhost/projetos/geraldao" >
+                
+            </a>
+        </li>
+    </ul>
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <i class="fas fa-user"></i>
+             
+            <a href="" role="button">
+                Sair
+            </a>
+        </li>
+    </ul>
+</nav>            <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="http://localhost/projetos/geraldao" class="brand-link logo-switch d-flex justify-content-center">
+        <img src="http://localhost/projetos/geraldao/assets/img/cronos_transparente-removebg-preview_small.png" alt="Geraldão" class="brand-image logo-xs">
+        <img src="http://localhost/projetos/geraldao/assets/img/cronos_transparente-removebg-preview.png" alt="Geraldão" class="brand-image logo-xl">
+    </a>
+    <div class="sidebar">
+        <!-- Sidebar Menu -->
+        <nav class="mt-2 text-wrap">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <li class="nav-item">
+                    <a class="nav-link trigger_full_page_loading" href="http://localhost/projetos/geraldao/Geraldo/mostrarUploadArquivo">
+                        <i class="fas fa-plus nav-icon"></i>
+                        <p>Cadastro de Arquivos</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link trigger_full_page_loading" href="http://localhost/projetos/geraldao/Geraldo/escolherTemplate">
+                        <i class="fa fa-tag nav-icon"></i>
+                        <p>Gerar Arquivo</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+    </div>
+</aside>
+            
+            <div class="content-wrapper">
+                <section class="content-header">
+                    <div class="container">
+                        <div class="row mb-2">
+                            
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <div class="content">
+                    <div class="container">
+                                                
+                        
+                    </div>
+                </div>
+            </div>
+
+            <footer class="main-footer">
+                <div class="float-right d-none d-sm-block">
+                    <b>Versão</b> 1.0.0
+                </div>
+                <strong><a href="http://www.trt14.jus.br">Tribunal Regional do Trabalho 14ª Região</a> | 2022</strong>
+            </footer>
+        </div>
+    </body>
+
+   
+
+    <script src="http://localhost/projetos/geraldao/app/assets/plugins/jquery/jquery.min.js"></script>
+    <script src="http://localhost/projetos/geraldao/app/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="http://localhost/projetos/geraldao/app/assets/js/adminlte.min.js?v=3.2.0"></script>
+
+</html><?php }
+}

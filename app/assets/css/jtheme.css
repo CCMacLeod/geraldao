@@ -1,0 +1,33 @@
+/* ESTILOS PRÓPRIOS DA JUSTIÇA DO TRABALHO */
+.bg-jt-azul{
+    background: #01426a;
+}
+.bg-jt-azul a{
+    color: #fff;
+}
+[class*=sidebar-dark-] {
+    background-color: #336596;
+}
+[class*=sidebar-dark] .user-panel {
+    border-bottom: 1px solid #1d5790;
+}
+[class*=sidebar-dark] .btn-sidebar, [class*=sidebar-dark] .form-control-sidebar {
+    background-color: #ffffff;
+    border: 1px solid #336596;
+    color: #336596;
+}
+[class*=sidebar-dark-] .sidebar a {
+    color: #ffffff;
+}
+[class*=sidebar-dark] .btn-sidebar:hover,
+[class*=sidebar-dark] .btn-sidebar:focus {
+    background-color: #14426f;
+}
+[class*=sidebar-dark] .list-group-item {
+    background-color: #e4e4e4;
+    border-color: #336596;
+    color: #424242 !important;
+}
+[class*=sidebar-dark] .list-group-item:hover {
+    background-color: #d6d6d6;
+}
